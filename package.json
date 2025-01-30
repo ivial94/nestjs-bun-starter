@@ -1,0 +1,25 @@
+{
+  "name": "@ivial94/nestjs-bun-starter",
+  "engineStrict": true,
+  "packageManager": "bun@1.2.1",
+  "module": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/main.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "11.0.6",
+    "@nestjs/core": "11.0.6",
+    "@nestjs/platform-fastify": "11.0.6",
+    "reflect-metadata": "0.2.2",
+    "rxjs": "7.8.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.19.0",
+    "typescript-eslint": "8.22.0",
+    "bun-types": "1.2.1",
+    "eslint-plugin-import": "2.31.0",
+    "prettier": "3.4.2",
+    "typescript": "5.7.3"
+  }
+}
